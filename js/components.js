@@ -42,12 +42,14 @@ class Clock extends React.Component {
 class App extends React.Component {
   render() {
     return (
+      <div>
         <div id="helloworld">
           <HelloWorld />
         </div>
-        <div>
+        <div id="clock">
           <Clock />
         </div>
+      </div>
     );
   }
 }
