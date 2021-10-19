@@ -45,6 +45,7 @@ class App extends React.Component {
       <div>
         <div id="helloworld">
           <HelloWorld />
+          <p>Kan endres fort og gærlig?</p>
         </div>
         <div id="clock">
           <Clock />
